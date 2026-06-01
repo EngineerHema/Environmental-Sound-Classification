@@ -1,0 +1,154 @@
+[
+  {
+    "tag": "gru_mel_h128_l2_d3",
+    "args": {
+      "model": "gru",
+      "feature_type": "mel",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.6618004866180048,
+      "f1_macro": 0.6838730337576997
+    },
+    "test": {
+      "accuracy": 0.5716878402903811,
+      "f1_macro": 0.6056957137612017
+    }
+  },
+  {
+    "tag": "gru_mfcc_h128_l2_d3",
+    "args": {
+      "model": "gru",
+      "feature_type": "mfcc",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.7086374695863747,
+      "f1_macro": 0.7261440300009065
+    },
+    "test": {
+      "accuracy": 0.6225045372050817,
+      "f1_macro": 0.6408650270086416
+    }
+  },
+  {
+    "tag": "gru_combined_h128_l2_d3",
+    "args": {
+      "model": "gru",
+      "feature_type": "combined",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.7159367396593674,
+      "f1_macro": 0.7207144435612821
+    },
+    "test": {
+      "accuracy": 0.735632183908046,
+      "f1_macro": 0.7539515481700219
+    }
+  },
+  {
+    "tag": "gru_combined_h256_l2_d3",
+    "args": {
+      "model": "gru",
+      "feature_type": "combined",
+      "hidden_size": 256,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.7104622871046229,
+      "f1_macro": 0.7205149539004653
+    },
+    "test": {
+      "accuracy": 0.73502722323049,
+      "f1_macro": 0.7409358436491453
+    }
+  },
+  {
+    "tag": "gru_combined_h128_l3_d3",
+    "args": {
+      "model": "gru",
+      "feature_type": "combined",
+      "hidden_size": 128,
+      "num_layers": 3,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.7019464720194647,
+      "f1_macro": 0.7134504319561432
+    },
+    "test": {
+      "accuracy": 0.7326073805202662,
+      "f1_macro": 0.7491861222642777
+    }
+  },
+  {
+    "tag": "gru_combined_h128_l2_d5",
+    "args": {
+      "model": "gru",
+      "feature_type": "combined",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.5,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.7055961070559611,
+      "f1_macro": 0.7142036539748554
+    },
+    "test": {
+      "accuracy": 0.7102238354506957,
+      "f1_macro": 0.7240180328485398
+    }
+  },
+  {
+    "tag": "gru_combined_h128_l2_d3_aug",
+    "args": {
+      "model": "gru",
+      "feature_type": "combined",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": true
+    },
+    "validation": {
+      "accuracy": 0.7159367396593674,
+      "f1_macro": 0.7207144435612821
+    },
+    "test": {
+      "accuracy": 0.735632183908046,
+      "f1_macro": 0.7539515481700219
+    }
+  },
+  {
+    "tag": "cnn_gru_combined_h128_l2_d3",
+    "args": {
+      "model": "cnn_gru",
+      "feature_type": "combined",
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "augment": false
+    },
+    "validation": {
+      "accuracy": 0.76338199513382,
+      "f1_macro": 0.7787886546123386
+    },
+    "test": {
+      "accuracy": 0.7810042347247429,
+      "f1_macro": 0.7960301005812741
+    }
+  }
+]

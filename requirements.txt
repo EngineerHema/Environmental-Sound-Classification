@@ -1,0 +1,24 @@
+# UrbanSound8K – Environmental Sound Classification
+# Assignment #4  |  CSE: Pattern Recognition  |  Alexandria University
+
+# Core ML
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Data & numerics
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter (for notebooks)
+jupyter>=1.0.0
+ipython>=8.0.0
+ipywidgets>=8.0.0

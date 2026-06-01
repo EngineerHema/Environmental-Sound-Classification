@@ -1,0 +1,19 @@
+{
+  "tag": "gru_combined_h128_l2_d3",
+  "args": {
+    "model": "gru",
+    "feature_type": "combined",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "augment": false
+  },
+  "validation": {
+    "accuracy": 0.7159367396593674,
+    "f1_macro": 0.7207144435612821
+  },
+  "test": {
+    "accuracy": 0.735632183908046,
+    "f1_macro": 0.7539515481700219
+  }
+}

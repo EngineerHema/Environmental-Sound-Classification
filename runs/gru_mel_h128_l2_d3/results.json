@@ -1,0 +1,19 @@
+{
+  "tag": "gru_mel_h128_l2_d3",
+  "args": {
+    "model": "gru",
+    "feature_type": "mel",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "augment": false
+  },
+  "validation": {
+    "accuracy": 0.6618004866180048,
+    "f1_macro": 0.6838730337576997
+  },
+  "test": {
+    "accuracy": 0.5716878402903811,
+    "f1_macro": 0.6056957137612017
+  }
+}

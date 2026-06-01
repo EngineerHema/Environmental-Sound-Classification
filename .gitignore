@@ -1,0 +1,7 @@
+.venv/
+data/
+feature_cache/
+.idea/
+
+__pycache__/
+*.pyc
