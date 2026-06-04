@@ -157,7 +157,7 @@ def explore_dataset(df: pd.DataFrame,
             # Audio playback (works in Jupyter)
             try:
                 waveform, sr = load_audio(fp)
-                display(ipd.Audio(waveform, rate=sr))  # noqa: F821
+                ipd.display(ipd.Audio(waveform, rate=sr))  # noqa: F821
             except Exception:
                 pass
 
